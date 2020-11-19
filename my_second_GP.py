@@ -11,6 +11,7 @@ class main_chef():
     def change_speciality(self, speciality):
         self.speciality = speciality
         print(f"I'm a chef and my name is {self.name}. My new Speciality is {self.speciality}.")
+        
 chef1 = main_chef("Alex", 35, "Chicken Noodles")
 
 chef1.print_details()
