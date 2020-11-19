@@ -12,3 +12,7 @@ class main_chef():
 chef1 = main_chef("Alex", 35, "Chicken Noodles")
 
 chef1.print_details()
+
+chef2 = main_chef("Zander", 25, "Pizza and Lasagna")
+
+chef2.print_details()
